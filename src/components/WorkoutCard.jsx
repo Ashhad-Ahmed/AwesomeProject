@@ -37,7 +37,7 @@ const WorkoutCard = ({ image, title, subtitle }) => (
       <Text style={styles.title}>{title}</Text>
       <Text style={styles.subtitle}>{subtitle}</Text>
     </View>
-    <Icon name="chevron-forward" size={24} color="#00D29B" />
+    <Icon name="chevron-forward-outline" size={24} color="#00D29B" />
   </TouchableOpacity>
 );
 

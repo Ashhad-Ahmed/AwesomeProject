@@ -31,7 +31,10 @@ const Fitness = () => {
                 <PopularWorkoutSection />
                 <WorkoutActivitySection />
                 <WorkoutCard />
-                {/* <AdvertisementSection /> */}
+                <Image
+                    style={styles.crownIcon}
+                    source={require('./assets/advertise.png')}
+                    />
             </View>
            
         </ScrollView>

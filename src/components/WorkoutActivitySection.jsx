@@ -89,6 +89,7 @@ const styles = StyleSheet.create({
         overflow: 'hidden',
         padding: 16,
         marginTop: 30,
+        marginHorizontal: 10,
     },
     header: {
         flexDirection: 'row',
