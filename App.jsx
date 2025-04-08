@@ -4,11 +4,13 @@ import Splash from './src/Splash'
 import CoverLetter from './src/CoverLetter'
 import CompanyInfo from './src/CompanyInfo'
 import Fitness from './src/Fitness'
+import FitnessNew from './src/FitnessNew'
 
 export default function App() {
   return (
     <View>
-      <Fitness/>
+      {/* <Fitness/> */}
+      <FitnessNew />
       {/* <CompanyInfo/> */}
       {/* <CoverLetter/> */}
       {/* <Splash/> */}

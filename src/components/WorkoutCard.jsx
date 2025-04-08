@@ -64,7 +64,7 @@ const WorkoutList = () => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#0A1533',
+    backgroundColor: '#05192d',
     padding: 16,
     borderRadius: 10,
   },
