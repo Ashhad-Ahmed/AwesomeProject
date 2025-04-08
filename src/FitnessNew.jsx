@@ -11,18 +11,7 @@ import WorkoutActivitySection from './components/WorkoutActivitySection';
 // import AdvertisementSection from './components/AdvertisementSection';
 
 
-const injuries = [
-    {
-        id: '1',
-        title: 'Knee Injury',
-        image: require('./assets/knee.png'),
-    },
-    {
-        id: '2',
-        title: 'Foot Injury',
-        image: require('./assets/foot.png'),
-    },
-];
+
 
 const categories = [
     { id: '1', title: 'Hand', image: require('./assets/hand.png') },
@@ -37,7 +26,7 @@ const Fitness = () => {
                 <TopImage />
                 <HealthyLife />
                 <SearchSection />
-                <InjurySection injuries={injuries} />
+                <InjurySection  />
                 <CategorySection categories={categories} />
                 <PopularWorkoutSection />
                 <WorkoutActivitySection />
